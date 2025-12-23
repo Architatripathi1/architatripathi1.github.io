@@ -54,10 +54,12 @@ header input {
     width: 100%;
     display: block;
     border-radius: 15px;
+    transition: transform 0.3s;
 
 }
 
 .card img:hover {
+    transform: scale(1.05);
     
 }
 
@@ -116,6 +118,7 @@ header input {
 
 .menu li:hover {
     background: #efefef;
+    
 }
 
 
